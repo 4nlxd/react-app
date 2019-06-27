@@ -1,0 +1,8 @@
+{
+    "@layout-sider-background": "#fff",
+    "@layout-header-height": "56px",
+    "@layout-header-padding": "0",
+    "@layout-footer-padding": "10px",
+    "@layout-footer-background": "#f8f8f9",
+    "@text-color": "#333"
+}

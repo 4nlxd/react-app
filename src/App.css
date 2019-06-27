@@ -1,0 +1,38 @@
+ul, li{list-style: none;}
+#root{height: 100%;}
+.layui-logo{width: 320px; height: 56px;}
+.layui-logo-img{float: left;}
+.layui-logo-img img{float: left; margin-right: 24px;}
+.layui-logo dl{float: left; margin-bottom: 0; color: #fff;}
+.layui-logo dl dt{margin-top: 8px; line-height: 20px;}
+.layui-logo dl dd{margin-top: 5px; line-height: 12px;}
+.user-info{position: relative; height: 56px; float: right; margin-right: 24px; display: flex; align-items: center; justify-content: center;}
+.avatar-box{width: 32px; height: 32px;}
+.avatar-box img{display: block; width: 100%; height: 100%; object-fit: cover;}
+.user-info ul{display: none; position: absolute; z-index: 100; top: 55px; right: 0; width: 140px; padding: 5px 20px; line-height: 36px; border-radius: 2px; box-shadow: 0 2px 4px rgba(0,0,0,.12); border: 1px solid #d2d2d2;}
+.user-info:hover ul{display: block;}
+.layui-content{padding: 0 24px;}
+.ant-layout-sider{box-shadow: 0 0 8px 2px rgba(0,0,0,.2);}
+.layui-breadcrumb{padding: 15px 0;}
+.ant-layout-footer{text-align: center;}
+
+/* 滚动条样式S */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: #fff;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: #E2E2E2;
+    background-color: #E2E2E2;
+    cursor: pointer;
+}

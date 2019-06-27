@@ -1,0 +1,46 @@
+{
+  "name": "by-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.19.8",
+    "jsencrypt": "^3.0.0-rc.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build:dev": "env-cmd -e development react-app-rewired build",
+    "build:uat": "env-cmd -e development,test react-app-rewired build",
+    "build:prod": "env-cmd -e development,production react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.0",
+    "customize-cra": "^0.2.13",
+    "env-cmd": "^9.0.3",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "react-app-rewired": "^2.1.3"
+  }
+}
