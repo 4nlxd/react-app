@@ -40,7 +40,7 @@
     "env-cmd": "^9.0.3",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react-app-rewired": "^2.1.3"
   }
 }
